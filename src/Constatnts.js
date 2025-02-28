@@ -1,12 +1,6 @@
 import Result from "./Assets/Projects/result.png";
 import Driving_school from "./Assets/Projects/Driving-schools.png";
 import Wordpress from "./Assets/Projects/WordPress.png";
-/* import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
-import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
-import HSP from "./Assets/Projects/hsp.png";
-import COSMOS from "./Assets/Projects/cosmos.jpg";
-import TECHSPEC from "./Assets/Projects/techspec.png";
-import TRAVELWELL from "./Assets/Projects/travelwell.png"; */
 import Doctor_Appointment from "./Assets/Projects/Doctor-Appointment.png"
 
 export const PROJECTS = [
@@ -27,9 +21,9 @@ export const PROJECTS = [
     {
         image: Doctor_Appointment,
         name: "Coast",
-        technologyUsed: "ReactNative, Javascript, Redux",
+        technologyUsed: "ReactJs, ExpressJs, Node.Js, Tailwind CSS",
         description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
-        url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
+        url: "https://github.com/SameerMMM/Doctor_Appointment_Booking_System",
     },
     {
         image: Wordpress,
