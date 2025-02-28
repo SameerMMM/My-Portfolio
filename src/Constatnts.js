@@ -34,9 +34,9 @@ export const PROJECTS = [
     },
     {
         image: Wordpress,
-        name: "GuaMedia",
+        name: "iTechmi Website",
         technologyUsed: "Wordpress",
-        description: "Social media mobile app similar to Twitter for china. Social networking GUOMEDIA is an all-in-one social networking platform where users can build their own user profiles, create their own posts, Livestream broadcast and follow each other",
+        description: "Developed a WordPress website for iTechmi, a startup, to showcase project details, team members, company information, contact details, and location. The website enhances the startup's online presence and accessibility.",
         url: "",
     },
     {
