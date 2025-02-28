@@ -7,7 +7,7 @@ import HSP from "./Assets/Projects/hsp.png";
 import COSMOS from "./Assets/Projects/cosmos.jpg";
 import TECHSPEC from "./Assets/Projects/techspec.png";
 import TRAVELWELL from "./Assets/Projects/travelwell.png"; */
-
+import Doctor_Appointment from "./Assets/Projects/Doctor-Appointment.png"
 
 export const PROJECTS = [
     {
@@ -19,13 +19,13 @@ export const PROJECTS = [
     },
     {
         image: Driving_school,
-        name: "travlwell.com",
-        technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
-        description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
-        url: "https://travlwell.com/",
+        name: "Driving Schools Management System",
+        technologyUsed: "React, NodeJs, ExpressJs, MySql, Core-UI",
+        description: "Collaboratively developed a Driving School Management System for Smart Driving School - Sri Lanka to streamline operations and reduce paperwork. The system efficiently digitizes student records and automates printing details on the RMV application form, eliminating the need for manual entry and enhancing accuracy.",
+        url: "",
     },
     {
-        image: Wordpress,
+        image: Doctor_Appointment,
         name: "Coast",
         technologyUsed: "ReactNative, Javascript, Redux",
         description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
