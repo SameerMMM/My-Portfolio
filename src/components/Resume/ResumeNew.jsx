@@ -20,7 +20,7 @@ function ResumeNew() {
                 <Row className="resume">
                     <div>
                         <iframe
-                            src="../../../public/Sameer CV (Web app).pdf"
+                            src="/Sameer CV (Web app).pdf"
                             width="100%"
                             height="800px"
                         />
