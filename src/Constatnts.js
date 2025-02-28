@@ -1,8 +1,8 @@
-import Result from "./Assets/Projects/result.png";
-import Driving_school from "./Assets/Projects/Driving-schools.png";
-import Wordpress from "./Assets/Projects/WordPress.png";
-import Zima from "./Assets/Projects/zima.jpg";
-import Doctor_Appointment from "./Assets/Projects/Doctor-Appointment.png"
+import Result from "./assets/Projects/result.png";
+import Driving_school from "./assets/Projects/Driving-schools.png";
+import Wordpress from "./assets/Projects/WordPress.png";
+import Zima from "./assets/Projects/zima.jpg";
+import Doctor_Appointment from "./assets/Projects/Doctor-Appointment.png"
 
 export const PROJECTS = [
     {
