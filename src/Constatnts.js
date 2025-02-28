@@ -1,73 +1,73 @@
-import AUTOMATION from "./Assets/Projects/3automation.jpg";
-import COAST from "./Assets/Projects/coast.jpg";
-import DROPSHIP from "./Assets/Projects/dropship.jpg";
-import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
+import Result from "./Assets/Projects/result.png";
+import Driving_school from "./Assets/Projects/Driving-schools.png";
+import Wordpress from "./Assets/Projects/WordPress.png";
+/* import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
 import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
 import HSP from "./Assets/Projects/hsp.png";
 import COSMOS from "./Assets/Projects/cosmos.jpg";
 import TECHSPEC from "./Assets/Projects/techspec.png";
-import TRAVELWELL from "./Assets/Projects/travelwell.png";
+import TRAVELWELL from "./Assets/Projects/travelwell.png"; */
 
 
 export const PROJECTS = [
     {
-        image: COSMOS,
+        image: Result,
         name: "Result Calculation Web App",
         technologyUsed: "ReactJs, Javascript, NodeJs, ExpressJs, MySql",
         description: "Developed a web application for grade calculation and student ranking using Z-score, specifically designed for the Technological stream of BT/BC/Oddamavadi Central College National School. This project, built in collaboration with another developer, enables efficient and accurate grade assessments based on inserted marks.",
         url: "https://tech.itechmi.com/",
     },
     {
-        image: TRAVELWELL,
+        image: Driving_school,
         name: "travlwell.com",
         technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
         description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
         url: "https://travlwell.com/",
     },
     {
-        image: COAST,
+        image: Wordpress,
         name: "Coast",
         technologyUsed: "ReactNative, Javascript, Redux",
         description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
         url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
     },
     {
-        image: AUTOMATION,
+        image: Wordpress,
         name: "3automation.com (RPA)",
         technologyUsed: "ReactJs, Typescript, Redux",
         description: "The next-gen Robotic Process Automation (#RPA) platform for retail and telecom domains. The ultimate automation platform for your Shopify, Email, E- commerce shop",
         url: "https://www.3automation.com/",
     },
     {
-        image: GUAMEDIA,
+        image: Wordpress,
         name: "GuaMedia",
         technologyUsed: "ReactNative, Javascript, Redux",
         description: "Social media mobile app similar to Twitter for china. Social networking GUOMEDIA is an all-in-one social networking platform where users can build their own user profiles, create their own posts, Livestream broadcast and follow each other",
         url: "https://play.google.com/store/apps/details?id=com.tiu.guo.media",
     },
     {
-        image: TECHSPEC,
+        image: Wordpress,
         name: "TechSpec",
         technologyUsed: "ReactJs, Typescript, Redux",
         description: "TechSpec is e-commerce web app. User can compare his product and purchange. This had a dashboard web app which had the data of orders placed and type of user.",
         url: "",
     },
     {
-        image: HSP,
+        image: Wordpress,
         name: "HSP (Health Solution Plus)",
         technologyUsed: "ReactJs, Javascript, Redux",
         description: "This is a Healthcare sector project which would be developed as replica of a desktop application. My responsibilities in this project are to develop UI, perform searching of medical codes and categories, addition/updation of codes and categories.",
         url: "",
     },
     {
-        image: DROPSHIP,
+        image: Wordpress,
         name: "DropShip Shopify App",
         technologyUsed: "Shopify, React, typescript, polaris, GraphQL, Nodejs, Koajs",
         description: "It is customized clothes shopify app which fetch order from store and give option to customize product and send detail to store owner. Also maintain tracking etc of product.",
         url: "",
     },
     {
-        image: GOOD_FOOD_DISCOUNTS,
+        image: Wordpress,
         name: "GoodFoodDiscounts",
         technologyUsed: "ReactNative, Javascript, Redux",
         description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
