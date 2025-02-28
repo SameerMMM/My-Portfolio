@@ -19,7 +19,7 @@ function ResumeNew() {
             <Container fluid className="resume-section">
                 <Row className="resume">
                     <iframe src="../../../public/Sameer CV (Web app).pdf"
-                        width="100%" height="800px"></iframe>
+                        width="100%" height="1000px"></iframe>
                 </Row>
 
                 <Row style={{ justifyContent: "center", position: "relative" }}>
