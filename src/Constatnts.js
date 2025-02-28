@@ -1,6 +1,7 @@
 import Result from "./Assets/Projects/result.png";
 import Driving_school from "./Assets/Projects/Driving-schools.png";
 import Wordpress from "./Assets/Projects/WordPress.png";
+import Zima from "./Assets/Projects/zima.jpg";
 import Doctor_Appointment from "./Assets/Projects/Doctor-Appointment.png"
 
 export const PROJECTS = [
@@ -40,10 +41,10 @@ export const PROJECTS = [
         url: "",
     },
     {
-        image: Wordpress,
-        name: "TechSpec",
-        technologyUsed: "ReactJs, Typescript, Redux",
-        description: "TechSpec is e-commerce web app. User can compare his product and purchange. This had a dashboard web app which had the data of orders placed and type of user.",
+        image: Zima,
+        name: "Zima Travels Website",
+        technologyUsed: "HTML, CSS, PHP, Javascript",
+        description: "Developed a website for Zima Travels to showcase tourist locations, special offers, and travel packages. The platform enhances visibility, attracts more tourists, and boosts profitability by providing an engaging and informative experience for potential travelers.",
         url: "",
     },
 ];
