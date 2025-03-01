@@ -20,6 +20,7 @@ function ResumeNew() {
                             src="/SameerCV(Webapp).pdf"
                             width="100%"
                             height="800px"
+                            title="CV Preview"
                         />
                     </div>
                 </Row>
@@ -29,6 +30,7 @@ function ResumeNew() {
                         variant="primary"
                         href="/SameerCV(Webapp).pdf"
                         download="SameerCV.pdf"
+                        target="_blank"
                         className="download-button"
                     >
                         <AiOutlineDownload />
