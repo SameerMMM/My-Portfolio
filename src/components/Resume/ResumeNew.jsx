@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../../public/Sameer CV (Web app).pdf"
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
     const [width, setWidth] = useState(1200);
@@ -20,7 +17,7 @@ function ResumeNew() {
                 <Row className="resume">
                     <div>
                         <iframe
-                            src="sameerdeveloper.netlify.app/Sameer CV (Web app).pdf"
+                            src="/SameerCV(Webapp).pdf"
                             width="100%"
                             height="800px"
                         />
@@ -28,7 +25,12 @@ function ResumeNew() {
                 </Row>
 
                 <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <Button variant="primary" href={pdf} target="_blank" className="download-button">
+                    <Button
+                        variant="primary"
+                        href="/SameerCV(Webapp).pdf"
+                        download="SameerCV.pdf"
+                        className="download-button"
+                    >
                         <AiOutlineDownload />
                         &nbsp;Download CV
                     </Button>
